@@ -52,7 +52,7 @@ export default function Noticias() {
                                 <Card.Title>{art.title}</Card.Title>
                                 <Card.Text>{art.description}</Card.Text>
                                 <Card.Text><cite title="Source Title">{art.author}</cite></Card.Text>
-                                <Button variant="primary">Ver Mas!</Button>
+                                <Button href={art.url} variant="primary">Ver Mas!</Button>
                             </Card.Body>
                         </Card>
                 ))}
