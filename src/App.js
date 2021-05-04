@@ -19,14 +19,15 @@ function App() {
         <Route path="/login">
               <Login setUser={setUser} />
         </Route>
+        <div className="fondo">
         <Route path="/home"><Home /></Route>
 
         <Route path="/noticias">
           <div className="container d-flex"><Noticias /></div>
         </Route>
+        </div>
       </Switch>
       <Footer />
-
     </Router>
   );
 }
