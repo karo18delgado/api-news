@@ -1,5 +1,5 @@
 import Logo from '../../src/logo.svg';
-import './footer.css';
+
 
 export default function Footer() {
     return (
@@ -16,7 +16,6 @@ export default function Footer() {
                         src={Logo}
                         width="70"
                         height="70"
-                    // className="d-inline-block align-center"
                     />
                 </div>
             </div>

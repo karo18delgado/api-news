@@ -20,7 +20,7 @@ export default function Login({setUser}) {
         } else alert ('Datos Incorrectos!');
     }
     return (
-        <Form onSubmit={handleSubmit} className="card mx-auto p-5 my-5" style={{ width: '500px'}}>
+        <Form onSubmit={handleSubmit} className="card mx-auto p-5 my-5" style={{ width: '500px', height:'400px'}}>
             <Form.Group controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>
                 <Form.Control name="email" onChange={handleChange} type="email" placeholder="Enter email" required />
@@ -29,12 +29,9 @@ export default function Login({setUser}) {
                 </Form.Text>
             </Form.Group>
 
-            <Form.Group controlId="formBasicPassword">
+            <Form.Group controlId="formBasicPassword" className="pb-3">
                 <Form.Label>Password</Form.Label>
                 <Form.Control name="password" onChange={handleChange} type="password" placeholder="Password" required />
-            </Form.Group>
-            <Form.Group controlId="formBasicCheckbox">
-                <Form.Check type="checkbox" label="Check me out" />
             </Form.Group>
             <Button variant="primary" type="submit">
                 Submit

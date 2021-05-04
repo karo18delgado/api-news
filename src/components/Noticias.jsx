@@ -28,7 +28,7 @@ export default function Noticias() {
 
 
     return (
-        <div>
+        <div >
             <div className="col-6" >
                 <div className="d-flex flex-column py-2" >
                     <Form >
@@ -57,8 +57,6 @@ export default function Noticias() {
                         </Card>
                 ))}
                 </CardColumns>
-            
-
         </div>
     )
 }
