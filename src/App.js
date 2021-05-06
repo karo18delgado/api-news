@@ -20,6 +20,7 @@ function App() {
               <Login setUser={setUser} />
         </Route>
         <div className="fondo">
+        <p className="titulo font-weight-bold ">NOTICIAS</p> 
         <Route path="/home"><Home /></Route>
 
         <Route path="/noticias">

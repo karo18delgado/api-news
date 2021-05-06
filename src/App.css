@@ -39,3 +39,10 @@
 .fondo{
   background-color: rgb(133, 154, 155);
 }
+.titulo{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 70px;
+  color: rgb(145, 24, 24);
+  text-align: center;
+  padding: 1rem;
+}
